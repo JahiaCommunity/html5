@@ -5,42 +5,23 @@
 
 [jch5mix:html5Components] > jmix:droppableContent, jmix:editorialContent mixin
 
-[jch5mix:htmlAttrCustom] mixin
+[jch5mix:htmlAttrCustom] > jmix:list, jch5mix:html5Components mixin
  - id (string) indexed=no < '[a-zA-Z0-9-_]+'
  - cssClass (string) indexed=no
  - style (string) indexed=no
  - role (string) indexed=no
  - aria (string) indexed=no
-
-[jch5nt:div] > jnt:content, jch5mix:htmlAttrCustom, jmix:list, jch5mix:html5Components
  + * (jmix:droppableContent)  = jmix:droppableContent
+ - listLimit (string, choicelist[resourceBundle]) = '-1' autocreated indexed=no < '-1', '1', '2', '3', '4', '5', '10'
 
-[jch5nt:section] > jnt:content, jch5mix:htmlAttrCustom, jch5mix:html5Components, jmix:list
- + * (jmix:droppableContent)  = jmix:droppableContent
-
-[jch5nt:article] > jnt:content, jch5mix:htmlAttrCustom, jch5mix:html5Components, jmix:list
- + * (jmix:droppableContent)  = jmix:droppableContent
-
-[jch5nt:main] > jnt:content, jch5mix:htmlAttrCustom, jch5mix:html5Components, jmix:list
- + * (jmix:droppableContent)  = jmix:droppableContent
-
-[jch5nt:aside] > jnt:content, jch5mix:htmlAttrCustom, jch5mix:html5Components, jmix:list
- + * (jmix:droppableContent)  = jmix:droppableContent
-
-[jch5nt:nav] > jnt:content, jch5mix:htmlAttrCustom, jch5mix:html5Components, jmix:list
- + * (jmix:droppableContent)  = jmix:droppableContent
-
-[jch5nt:header] > jnt:content, jch5mix:htmlAttrCustom, jch5mix:html5Components, jmix:list
- + * (jmix:droppableContent)  = jmix:droppableContent
-
-[jch5nt:footer] > jnt:content, jch5mix:htmlAttrCustom, jch5mix:html5Components, jmix:list
- + * (jmix:droppableContent)  = jmix:droppableContent
-
-[jch5nt:figure] > jnt:content, jch5mix:htmlAttrCustom, jch5mix:html5Components, jmix:list
- + * (jmix:droppableContent)  = jmix:droppableContent
-
-[jch5nt:figcaption] > jnt:content, jch5mix:htmlAttrCustom, jch5mix:html5Components, jmix:list
- + * (jmix:droppableContent)  = jmix:droppableContent
-
-[jch5nt:hgroup] > jnt:content, jch5mix:htmlAttrCustom, jch5mix:html5Components, jmix:list
- + * (jmix:droppableContent)  = jmix:droppableContent
+[jch5nt:div] > jnt:content, jch5mix:htmlAttrCustom
+[jch5nt:section] > jnt:content, jch5mix:htmlAttrCustom
+[jch5nt:article] > jnt:content, jch5mix:htmlAttrCustom
+[jch5nt:main] > jnt:content, jch5mix:htmlAttrCustom
+[jch5nt:aside] > jnt:content, jch5mix:htmlAttrCustom
+[jch5nt:nav] > jnt:content, jch5mix:htmlAttrCustom
+[jch5nt:header] > jnt:content, jch5mix:htmlAttrCustom
+[jch5nt:footer] > jnt:content, jch5mix:htmlAttrCustom
+[jch5nt:figure] > jnt:content, jch5mix:htmlAttrCustom
+[jch5nt:figcaption] > jnt:content, jch5mix:htmlAttrCustom
+[jch5nt:hgroup] > jnt:content, jch5mix:htmlAttrCustom
