@@ -12,7 +12,6 @@
  - role (string) indexed=no
  - aria (string) indexed=no
  + * (jmix:droppableContent)  = jmix:droppableContent
- - listLimit (string, choicelist[resourceBundle]) = '-1' autocreated indexed=no < '-1', '1', '2', '3', '4', '5', '10'
 
 [jch5nt:div] > jnt:content, jch5mix:htmlAttrCustom
 [jch5nt:section] > jnt:content, jch5mix:htmlAttrCustom

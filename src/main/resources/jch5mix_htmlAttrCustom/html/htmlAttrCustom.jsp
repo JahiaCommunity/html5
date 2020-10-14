@@ -15,10 +15,6 @@
 
 <c:set var="elementType" value="${fn:replace(currentNode.primaryNodeType,'jch5nt:','')}"/>
 
-<c:if test="${empty listLimit}">
-    <c:set var="listLimit" value="-1"/>
-</c:if>
-
 <${elementType}
     <c:if test="${not empty id}">  id="${id}"  </c:if>
     <c:if test="${not empty cssClass}"><c:out value=" "/>  class="${cssClass}"  </c:if>
@@ -26,5 +22,5 @@
     <c:if test="${not empty role}"><c:out value=" "/>  role="${role}"  </c:if>
     <c:if test="${not empty aria}"><c:out value=" "/>  aria-label="${fn:escapeXml(aria)}"  </c:if>
 >
-    <template:area path="${elementType}" listLimit="${listLimit}"/>
+    <template:area path="${elementType}" />
 </${elementType}>
