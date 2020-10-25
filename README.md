@@ -21,3 +21,9 @@ Proposition to have separate HTML5 (drag&droppable) Jahia components (section, a
 <h2>GOAL:</h2>
 <p>The main purpose is to allow designer to identify visually/directly these widely used element and to be able to make a direct drag&drop into their templates.<BR>
 Other benefits: the name of the component in the Studio correspond to the HTML element dragged (ex: 'section', instead of 'layout&grid' for example) which allow direct verification for designer.</p>
+
+<h2>TODO:</h2>
+<ul>
+<li>display inserted tag in Studio view (escaped and syntax colored if possible)</li>
+<li>leave only htmlFragmentStart component with 'opening' tags and "auto-complete" all closing tag element (with HTML Tidy through a Jahia custom validator for exemple?</li>
+</ul>
