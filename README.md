@@ -15,7 +15,7 @@ Proposition to have separate HTML5 (drag&droppable) Jahia components (section, a
 
 <h3>views:</h3>
 <ul>
-<li>a generic view (htmlAttrCustom.withElement.jsp) that manage the rendering globally</li>
+<li>a generic view (htmlAttrCustom.withElement.jsp) that manage the rendering globally</li>nds
 </ul>
 
 <h2>GOAL:</h2>

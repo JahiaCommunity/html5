@@ -24,3 +24,8 @@
 [jch5nt:figure] > jnt:content, jch5mix:htmlAttrCustom
 [jch5nt:figcaption] > jnt:content, jch5mix:htmlAttrCustom
 [jch5nt:hgroup] > jnt:content, jch5mix:htmlAttrCustom
+
+[jch5nt:htmlFragment] > jnt:content, jmix:list, jch5mix:html5Components
+ - htmlFragmentStart (string,textarea)
+ - htmlFragmentStop (string,textarea)
+ + * (jmix:droppableContent)  = jmix:droppableContent
