@@ -12,7 +12,7 @@
     <groupId>org.jahiacommunity.modules</groupId>
     <artifactId>html5</artifactId>
     <name>HTML 5 Components</name>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <packaging>bundle</packaging>
     <description>This is the custom module (HTML 5 Components) for running on a Jahia server.</description>
 
